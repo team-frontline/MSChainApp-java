@@ -30,7 +30,7 @@ public class CCInvoker {
 
     }
 
-    public MSchainUser getMSchainUser((HFCAClient caClient, MSchainUser registrar, String userId) throws Exception{
+    public MSchainUser getMSchainUser(HFCAClient caClient, MSchainUser registrar, String userId) throws Exception{
 //        MSchainUser appUser = tryDeserialize(userId);
 //        if (appUser == null) {
 //            RegistrationRequest rr = new RegistrationRequest(userId, "org1");
