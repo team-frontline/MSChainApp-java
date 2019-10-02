@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/MSChainApp-java.iml" filepath="$PROJECT_DIR$/.idea/MSChainApp-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MSchainInvoker/MSchainInvoker.iml" filepath="$PROJECT_DIR$/MSchainInvoker/MSchainInvoker.iml" />
     </modules>
   </component>
 </project>
