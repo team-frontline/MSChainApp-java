@@ -3,9 +3,10 @@ package com.frontline;
 import org.hyperledger.fabric.sdk.Enrollment;
 import org.hyperledger.fabric.sdk.User;
 
+import java.io.Serializable;
 import java.util.Set;
 
-public class MSchainUser implements User {
+public class MSchainUser implements User, Serializable {
     private String name;
     private Set<String> roles;
     private String account;
