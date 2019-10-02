@@ -13,7 +13,9 @@ public class CCInvoker {
     public void queryBlockchain(){}
 
     //should add suitable return type
-    public String invokeChaincode(){}
+    public String invokeChaincode(){
+        return null;
+    }
 
     public Channel getChannel(HFClient hfClient, String channelName){
         return null;
