@@ -14,6 +14,14 @@ public class MSchainUser implements User, Serializable {
     private Enrollment enrollment;
     private String mspId;
 
+    public MSchainUser(String name, String affiliation, Enrollment enrollment, String mspId) {
+        this.name = name;
+        this.roles = roles;
+        this.affiliation = affiliation;
+        this.enrollment = enrollment;
+        this.mspId = mspId;
+    }
+
     @Override
     public String getName() {
         return name;
