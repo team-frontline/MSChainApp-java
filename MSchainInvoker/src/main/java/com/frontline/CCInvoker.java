@@ -73,7 +73,7 @@ public class CCInvoker {
     public HFCAClient getHFCAClient(String caUrl, Properties caClientProperties) throws Exception{
         CryptoSuite cryptoSuite = CryptoSuite.Factory.getCryptoSuite();
         System.out.println(cryptoSuite);
-        HFCAClient caClient = HFCAClient.createNewInstance(caUrl, caClientProperties);
+        HFCAClient caClient = HFCAClient.createNewInstance("ca-org1",caUrl, caClientProperties);
         caClient.setCryptoSuite(cryptoSuite);
         return caClient;
     }
